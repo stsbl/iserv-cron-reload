@@ -1,3 +1,11 @@
+stsbl-iserv-cron-reload (20.08.02-1) testing; urgency=medium
+
+  * Updated packaging
+  * Updated build rules for webpack support
+  * Bumped copyright
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Sun, 02 Aug 2020 06:38:30 +0200
+
 stsbl-iserv-cron-reload (17.06.04-0) unstable; urgency=low
 
   * Initial Release.
