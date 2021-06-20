@@ -1,3 +1,9 @@
+stsbl-iserv-cron-reload (21.06.21.2) stable; urgency=medium
+
+  * Removed copyright boilerplate
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Mon, 21 Jun 2021 00:26:37 +0200
+
 stsbl-iserv-cron-reload (21.06.21.1) stable; urgency=medium
 
   * Updated license copyright
