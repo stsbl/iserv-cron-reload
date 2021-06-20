@@ -4,13 +4,16 @@ Priority: optional
 Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
 Build-Depends: debhelper-compat (= 13), dh-sequence-iserv, dh-sequence-stsbl
 Standards-Version: 4.5.0
+Homepage: https://it.stsbl.de/
 
 Package: stsbl-iserv-cron-reload
 Architecture: all
 Depends: iserv-update, ${misc:Depends}, ${perl:Depends}
 Xb-Private-Iserv-Revision: ${iserv:Revision}
 Description: IServ Cron - Reload
- Verhindert einen Neustart von Cron, wenn einer seiner Konfigurationsdateien von iservchk repariert wurde.
+ Verhindert einen Neustart von Cron, wenn einer seiner Konfigurationsdateien
+ von iservchk repariert wurde.
  .
- Dies umgeht das Problem, dass dadurch zum Beispiel eine Update-E-Mail nicht verschickt wird.
+ Dies umgeht das Problem, dass dadurch zum Beispiel eine Update-E-Mail nicht
+ verschickt wird.
 Tag: suite::iserv
